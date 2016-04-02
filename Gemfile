@@ -26,6 +26,8 @@ gem 'rack-ssl-enforcer', require: false
 gem 'rails_autolink'
 gem 'useragent'
 
+gem 'figaro'
+
 # Please don't update hoptoad_notifier to airbrake.
 # It's for internal use only, and we monkeypatch certain methods
 gem 'hoptoad_notifier', "~> 2.4"
